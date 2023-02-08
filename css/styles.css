@@ -70,9 +70,17 @@ line-height: 1.5;
 .hero {
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
 letter-spacing: 0.02em;
-text-align: center;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+padding-top: 188px;
+margin-top: 292px;
+margin-top: 0%;
+
+
 
 }
 
@@ -83,6 +91,11 @@ text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 188px;
+    margin-left: 636px;
+    
+
 
 }    
 .button {
@@ -91,11 +104,19 @@ background: #4D5AE5;
 font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.5;
+min-width: 169px;
+height: 56px;
+padding: 16px 32px;
 
 
 }
+
+.but-ind {
+
+    
+}
 .button:focus {
-   
+
     background-color: #404BBF;
 
     color: #FFFFFF
@@ -136,11 +157,18 @@ text-align: center;
 
 }
 .header {
+height: 72px;
+background-color: ##E7E9FC;
+padding: 0px;
+margin: 0px ;
+
 }
 
 /*-------ourteam------*/
 .team {
     background-color: #F4F4FD;
+    width: 1440px;
+height: 732px;
 }
 
 /*--------button-portfolio------*/
@@ -287,3 +315,80 @@ color: #E7E9FC;
  .feature-li {
     background-color: #FFFFFF;
  }
+
+ .header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+   
+ }
+
+ .header-list {
+    display: flex; 
+    gap: 40px;
+ }
+
+
+
+ .adress-flex {
+    display: flex;
+ }
+ .container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid #404BBF;
+ }
+
+ .div-header-container {
+    display: flex;
+    align-items: center;
+ }
+
+ .header-logo {
+    margin-right: 77px;
+ }
+
+ .sectionone {
+    display: flex;
+    gap: 24px;
+ }
+ .capital { 
+margin-top: 91px;
+margin-bottom: 72px;
+padding-top: 120px;
+padding-bottom: 72px;
+ }
+
+ .list {
+    display: flex;
+    
+ }
+
+ .gap-24 {
+    gap: 24px;
+ }
+
+ .our-team {
+    margin-bottom: 120px;
+ }
+
+ .footer {
+    width: 1440px;
+height: 310px;
+ }
+
+ .div-footer {
+padding-top: 100px;
+margin-top: 100px;
+}
+.but-portfolio {
+    gap: 24px;
+  
+}
+
+.blank {
+    flex-wrap: nowrap;
+}
