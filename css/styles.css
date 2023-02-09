@@ -79,6 +79,9 @@ color: #FFFFFF;
 padding-top: 188px;
 margin-top: 292px;
 margin-top: 0%;
+width: 496px;
+margin-left: 473px;
+margin-right: 473px;
 
 
 
@@ -167,8 +170,7 @@ margin: 0px ;
 /*-------ourteam------*/
 .team {
     background-color: #F4F4FD;
-    width: 1440px;
-height: 732px;
+   
 }
 
 /*--------button-portfolio------*/
@@ -184,9 +186,12 @@ height: 732px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-   font-family: inherit; 
+font-family: inherit; 
     background-color: #F4F4FD;
     color: #4D5AE5;
+margin-top: 168px;
+margin-bottom: 72px;
+
 
 }
 
@@ -250,6 +255,9 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 color: #F4F4FD;
 text-transform: uppercase;
+padding-top: 100px;
+margin-left: 156px;
+margin-top: 100px;
     }
 
 .foot-web {
@@ -274,6 +282,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+margin-top: 16px;
+margin-bottom: 100px;
+margin-left: 156px;
+margin-right: 1020px;
+
+width: 264px;
+
 }
 
 .header-link {
@@ -338,8 +353,10 @@ color: #E7E9FC;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0;
+    padding-left: 0;
     margin: 0 auto;
-    outline: 2px solid #404BBF;
+  
  }
 
  .div-header-container {
@@ -376,13 +393,13 @@ padding-bottom: 72px;
  }
 
  .footer {
-    width: 1440px;
+    max-width: 1440px;
 height: 310px;
  }
 
  .div-footer {
-padding-top: 100px;
-margin-top: 100px;
+  padding-top: 100px;
+padding-left: 146px;
 }
 .but-portfolio {
     gap: 24px;
@@ -390,5 +407,15 @@ margin-top: 100px;
 }
 
 .blank {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+h1
+h2
+ul
+li
+p {
+    margin: 0;
+    padding: 0;
 }
