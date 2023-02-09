@@ -1,6 +1,7 @@
 :root {
     --primary-text-color: #2E2F42;
     --background-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
 }
 /*---------fonts-----*/
 
@@ -159,13 +160,7 @@ letter-spacing: 0.02em;
 text-align: center;
 
 }
-.header {
-height: 72px;
-background-color: ##E7E9FC;
-padding: 0px;
-margin: 0px ;
 
-}
 
 /*-------ourteam------*/
 .team {
@@ -353,8 +348,6 @@ width: 264px;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 0;
-    padding-left: 0;
     margin: 0 auto;
   
  }
@@ -365,7 +358,7 @@ width: 264px;
  }
 
  .header-logo {
-    margin-right: 77px;
+    margin-right: 76px;
  }
 
  .sectionone {
@@ -411,11 +404,7 @@ padding-left: 146px;
     gap: 24px;
 }
 
-h1
-h2
-ul
-li
-p {
+* {
     margin: 0;
     padding: 0;
 }
