@@ -15,6 +15,9 @@
 /*---------text no point-----*/
 .link {
     text-decoration: none;
+      padding-top: 24px;
+    padding-bottom: 24px;
+ 
  }
  
  .list {
@@ -24,6 +27,7 @@
 
 .header {
     background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 
@@ -141,7 +145,7 @@ color: #2E2F42;
 font-weight: 500;
 margin-bottom: 8px;
 align-items: center;
-text-align: center;
+
 
 }
 .feature-text {
@@ -151,7 +155,7 @@ letter-spacing: 0.02em;
 color: #434455
 ;
 align-items: center;
-text-align: center;
+
 }
 
 .capital {
@@ -175,7 +179,9 @@ margin-bottom: 72px;
 /*--------button-portfolio------*/
 
 .button-portfolio {
-    cursor: pointer
+    cursor: pointer;
+    margin-bottom: 72px;
+  
     
 }
 
@@ -189,8 +195,9 @@ font-family: inherit;
     background-color: #F4F4FD;
     color: #4D5AE5;
     font-weight: 500;
-    margin-bottom: 72px;
-    margin-top: 168px;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 
 
 
@@ -203,7 +210,7 @@ font-family: inherit;
     background: #404BBF;
     color: #FFFFFF
     ;
-    border: 1px solid #E7E9FC;
+    border-color: transparent;
 border-radius: 4px;
 }
 .button-portfolio:focus {
@@ -219,7 +226,7 @@ border-radius: 4px;
 .fon-imag {
     background-color: #FFFFFF;
     width: 264px;
-    height: 380px;
+
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -326,10 +333,13 @@ width: 264px;
  .hero {
     color: #FFFFFF
     ;
+    margin-bottom: 48px;
  }
  .section {
     background-color: #2E2F42;
     text-align: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
  }
 
  .adress {
@@ -351,8 +361,7 @@ width: 264px;
     display: flex; 
     gap: 40px;
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
  }
 
 
@@ -402,11 +411,12 @@ width: 264px;
  }
 
  .our-team {
-    margin-bottom: 120px;
+ 
+
  }
 
  .footer {
- ]
+
  }
 
  .div-footer {
@@ -415,6 +425,7 @@ width: 264px;
 .but-portfolio {
     gap: 24px;
     justify-content: center; 
+   
   
 }
 
@@ -439,13 +450,34 @@ width: 264px;
 
 .team-div {
     padding-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .cardss {
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 border: 1px solid #E7E9FC;
+border-top: none;
 }
+
+.li-fotosi {
+    width: 360px;
+    height: 300px;
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+.sec-portfo {
+    padding-top: 96px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }"
+    
